@@ -136,7 +136,7 @@ body {
 
 /* Navigation */
 .navbar {
-  background-color: #4caf50;
+  background-color: #0E9AFF;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -232,7 +232,7 @@ body {
   width: 32px;
   height: 32px;
   background-color: white;
-  color: #4caf50;
+  color: #3f6a89;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -286,7 +286,7 @@ body {
 .menu-avatar {
   width: 40px;
   height: 40px;
-  background-color: #4caf50;
+  background-color: #0E9AFF;
   color: white;
   border-radius: 50%;
   display: flex;

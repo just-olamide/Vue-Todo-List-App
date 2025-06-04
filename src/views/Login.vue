@@ -169,7 +169,7 @@ const toggleMode = () => {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+  /* background: linear-gradient(135deg, #4caf50 0%, #45a049 100%); */
 }
 
 .auth-card {
@@ -225,7 +225,7 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #4caf50;
+  border-color: #0E9AFF;
 }
 
 input.error {
@@ -243,7 +243,7 @@ input.error {
 }
 
 .submit-btn {
-  background: #4caf50;
+  background: #0E9AFF;
   color: white;
   padding: 0.75rem;
   border: none;
@@ -259,7 +259,7 @@ input.error {
 }
 
 .submit-btn:hover {
-  background: #45a049;
+  background: #0E9AFF;
 }
 
 .submit-btn:disabled {
@@ -292,7 +292,7 @@ input.error {
 }
 
 .auth-footer a {
-  color: #4caf50;
+  color: #0E9AFF;
   text-decoration: none;
   font-weight: 500;
   margin-left: 0.5rem;
