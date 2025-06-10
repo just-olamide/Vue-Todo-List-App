@@ -133,7 +133,7 @@ body {
 
 /* Navigation */
 .navbar {
-  background-color: #0E9AFF;
+  background-color: #4caf50;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;

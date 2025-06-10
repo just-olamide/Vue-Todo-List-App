@@ -2,7 +2,6 @@
   <div class="mt-4">
     <h1 class="mb-4 text-primary">Dashboard</h1>
     
-    <!-- Loading State -->
     <div v-if="taskStore.loading" class="text-center">
       <b-spinner variant="primary" label="Loading..."></b-spinner>
     </div>
