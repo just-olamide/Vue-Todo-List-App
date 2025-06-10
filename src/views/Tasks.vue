@@ -288,7 +288,6 @@ const addTask = async () => {
 }
 
 const editTask = (task) => {
-  // TODO: Implement task editing
   console.log('Edit task:', task)
 }
 

@@ -8,14 +8,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const app = createApp(App)
 
-// Create and use Pinia store
 const pinia = createPinia()
 app.use(pinia)
 
-// Use router
 app.use(router)
 
-// Use BootstrapVue3
 app.use(BootstrapVue3)
 
 app.mount('#app')

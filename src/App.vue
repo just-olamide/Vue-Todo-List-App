@@ -58,7 +58,6 @@ const router = useRouter()
 const authStore = useAuthStore()
 const showUserMenu = ref(false)
 
-// Watch for authentication changes
 watch(
   () => authStore.isAuthenticated,
   (isAuthenticated) => {
@@ -68,7 +67,6 @@ watch(
   },
 )
 
-// Initialize auth state when app loads
 onMounted(async () => {
   console.log('App mounted, checking auth state')
   await authStore.checkAuth()
@@ -111,7 +109,6 @@ const handleClickOutside = (event) => {
 </script>
 
 <style>
-/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -200,7 +197,6 @@ body {
   font-size: 1.1rem;
 }
 
-/* User menu */
 .user-menu {
   position: relative;
 }
@@ -334,14 +330,10 @@ body {
 .menu-item:hover {
   background-color: #f5f5f5;
 }
-
-/* Main content */
 .main-content {
   flex: 1;
   padding: 2rem;
 }
-
-/* Transitions */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s ease;

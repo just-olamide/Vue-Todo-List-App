@@ -108,13 +108,13 @@ onMounted(() => {
 
 .progress-fill {
   height: 100%;
-  background-color: #4caf50;
+  background-color: #0E9AFF ;
   transition: width 0.3s ease;
 }
 
 .stat-value {
   font-weight: bold;
-  color: #4caf50;
+  color: #0E9AFF;
 }
 
 .completed-list {
